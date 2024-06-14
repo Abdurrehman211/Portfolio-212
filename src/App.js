@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
+import Portfolio from './Porfolio.jsx';
+import Services from './Services.jsx';
+import Navbar from './Navbar.jsx';
+ import { Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         hello my name is abdur rehman :p
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route exact path="/home" element={<Portfolio/>} />
+        <Route  path="/services" element={<Services />} />
+        </Routes> 
+        {/* <Footer /> */}
+      </BrowserRouter>
+      <Portfolio/>
     </div>
   );
 }
