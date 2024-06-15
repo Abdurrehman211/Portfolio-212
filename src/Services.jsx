@@ -9,7 +9,7 @@ import developer from "./images/developer.gif";
 import protect from "./images/protect.gif";
 import aos from 'aos';
 import 'aos/dist/aos.css';
-import './Service.css';
+import './Services.css';
 
 function Service(){
     useEffect(() => {
