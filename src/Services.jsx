@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-import bag from "./images/briefcase.svg";
+// import bag from "./images/briefcase.svg";
 import bag1 from "./images/bags.png";
 import cube from "./images/cube.gif";
 import Layout from "./images/icons8-layout.gif";

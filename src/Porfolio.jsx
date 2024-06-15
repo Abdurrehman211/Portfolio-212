@@ -15,7 +15,7 @@ import Service from "./Services.jsx";
 import Image9 from './images/Bootstraplogo.jpg';
 import Image10 from './images/HTMLlogo.png';
 import Image11 from './images/csslogo.jpg';
-import image8 from "./images/your pic background.png"
+// import image8 from "./images/your pic background.png"
 function Portfolio() {
   return (
     <>
@@ -171,7 +171,7 @@ function Links() {
         </div>
       </div>
       <div className="container221" data-aos="fade-right">
-        <a href="https://drive.google.com/file/d/1VNPx7-HMibbsrSeCBiSda2DAoOo4pF8f/view?usp=drive_link" target="_blank" download ><button className='download-button' id='cv'>Download CV</button></a>
+        <a href="https://drive.google.com/file/d/15UZbjDi-jPLNe58DZTvd4O_2swT2IrMn/view?usp=sharing" target="_blank" download ><button className='download-button' id='cv'>Download CV</button></a>
       </div>
       </section>
     </>
